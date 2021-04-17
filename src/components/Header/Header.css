@@ -1,0 +1,8 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-image {
+  width: 15.625em;
+}
