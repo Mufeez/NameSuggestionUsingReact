@@ -17,7 +17,7 @@ class App extends react.Component {
   handleSearchInputChange = (inputText) => {
     this.setState({
       headerExpanded: !inputText,
-      suggestedNames: name(inputText),
+      suggestedNames: inputText ? name(inputText) : [],
     });
   };
   render() {
@@ -29,6 +29,12 @@ class App extends react.Component {
         />
         <SearchBox onInputChange={this.handleSearchInputChange} />
         <ResultsContainer suggestedNames={this.state.suggestedNames} />
+        <div className="button-header3-container">
+          <p>
+            Note: Below Content is just for explaining state change
+            implementation
+          </p>
+        </div>
         <div className="button-header3-container">
           <h3 className="state-header">{this.state.fastingState}</h3>
         </div>
