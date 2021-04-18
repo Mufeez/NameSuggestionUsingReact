@@ -6,10 +6,31 @@
 }
 
 .head-image {
-  width: 15.625em;
+  width: auto;
+  transition: max-width 1s, min-width 1s;
+  /*width: 15.625em;*/
+}
+
+.head-image-expanded {
+  min-width: 15em;
+  max-width: 16em;
+}
+
+.head-image-contracted {
+  min-width: 3em;
+  max-width: 4em;
 }
 
 .head-text {
   font-family: "Hachi Maru pop", cursive;
   margin: 0.3125em 0 1em 0;
+  transition: font-size 1s;
+}
+
+.head-text-expanded {
+  font-size: 2em;
+}
+
+.head-text-contracted {
+  font-size: 0.8em;
 }
