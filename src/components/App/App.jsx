@@ -2,17 +2,23 @@ import react from "react";
 import "./App.css";
 import Header from "./../Header/Header";
 import SearchBox from "./../Search/Search";
+import ResultsContainer from "../ResultsContainer/ResultsContainer";
+
+const name = require("@rstacruz/startup-name-generator");
 
 class App extends react.Component {
   state = {
     fastingState: "I am Fasting",
     headerText: "This is new ,Name it!",
     headerExpanded: true,
+    suggestedNames: [],
   };
 
   handleSearchInputChange = (inputText) => {
-    this.setState({ headerExpanded: !inputText });
-    console.log("input Changed to" + inputText);
+    this.setState({
+      headerExpanded: !inputText,
+      suggestedNames: name(inputText),
+    });
   };
   render() {
     return (
@@ -22,6 +28,7 @@ class App extends react.Component {
           headTitle={this.state.headerText}
         />
         <SearchBox onInputChange={this.handleSearchInputChange} />
+        <ResultsContainer suggestedNames={this.state.suggestedNames} />
         <div className="button-header3-container">
           <h3>{this.state.fastingState}</h3>
           <button
@@ -38,11 +45,5 @@ class App extends react.Component {
     );
   }
 }
-
-//Following is Functional based component
-
-/* function App() {
-    return 'this is my functional component'
-} */
 
 export default App;
