@@ -10,6 +10,7 @@ const nameCard = ({ suggestedName }) => {
       className="name-card-link"
       href={`${namecheapUrl}${suggestedName}`}
       target="_blank"
+      rel="noreferrer"
     >
       <div className="result-name-card">
         <p className="result-name">{suggestedName}</p>
