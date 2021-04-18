@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NameSuggestionUsingReact/static/css/main.687e6869.chunk.css",
+    "main.js": "/NameSuggestionUsingReact/static/js/main.c88e9d7a.chunk.js",
+    "main.js.map": "/NameSuggestionUsingReact/static/js/main.c88e9d7a.chunk.js.map",
+    "runtime-main.js": "/NameSuggestionUsingReact/static/js/runtime-main.ea39cb5c.js",
+    "runtime-main.js.map": "/NameSuggestionUsingReact/static/js/runtime-main.ea39cb5c.js.map",
+    "static/js/2.699a2683.chunk.js": "/NameSuggestionUsingReact/static/js/2.699a2683.chunk.js",
+    "static/js/2.699a2683.chunk.js.map": "/NameSuggestionUsingReact/static/js/2.699a2683.chunk.js.map",
+    "static/js/3.a974e6ae.chunk.js": "/NameSuggestionUsingReact/static/js/3.a974e6ae.chunk.js",
+    "static/js/3.a974e6ae.chunk.js.map": "/NameSuggestionUsingReact/static/js/3.a974e6ae.chunk.js.map",
+    "index.html": "/NameSuggestionUsingReact/index.html",
+    "static/css/main.687e6869.chunk.css.map": "/NameSuggestionUsingReact/static/css/main.687e6869.chunk.css.map",
+    "static/js/2.699a2683.chunk.js.LICENSE.txt": "/NameSuggestionUsingReact/static/js/2.699a2683.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea39cb5c.js",
+    "static/js/2.699a2683.chunk.js",
+    "static/css/main.687e6869.chunk.css",
+    "static/js/main.c88e9d7a.chunk.js"
+  ]
+}
