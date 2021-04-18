@@ -30,8 +30,11 @@ class App extends react.Component {
         <SearchBox onInputChange={this.handleSearchInputChange} />
         <ResultsContainer suggestedNames={this.state.suggestedNames} />
         <div className="button-header3-container">
-          <h3>{this.state.fastingState}</h3>
+          <h3 className="state-header">{this.state.fastingState}</h3>
+        </div>
+        <div className="button-header3-container">
           <button
+            className="iftaar-button"
             onClick={() => {
               this.setState({
                 fastingState: "Yeah ! Completed the Fasting!",

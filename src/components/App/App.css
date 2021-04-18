@@ -7,7 +7,26 @@ body {
 
 .button-header3-container {
   display: flex;
-  text-align: center;
-  flex-direction: column;
-  margin-top: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1.3em 2.5em;
+}
+
+.state-header {
+  color: #e7e9f0;
+  background-color: #282d4f;
+  margin: 0.8em 1em;
+  min-width: 4.7em;
+  padding: 0.7em;
+  border-radius: 0.7em;
+  box-shadow: 0em 0em 0.4em rgb(255, 255, 255, 0.1);
+  transition: background 0.35s;
+  display: flex;
+  justify-content: center;
+}
+
+.iftaar-button {
+  width: 5em;
+  height: 3em;
+  position: center;
 }
